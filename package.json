@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tamir321/hkube-js-algorithm#readme",
   "dependencies": {
-    "@hkube/nodejs-wrapper": "^2.0.25"
+   
   }
 }
