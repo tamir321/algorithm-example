@@ -10,7 +10,7 @@ const start = async (args, api) => {
              ret = await api.startStoredSubpipeline(input.pipeName,input.input);
         }
         if (input.action == "startRaw"){
-             ret = await api.startRawSubpipeline(input.pipeName,input.pipNodes,input.input);
+             ret = await api.startRawSubpipeline(input.pipeName,JSON.parse(input.pipNodes),input.input);
         }
         if (input.action == "startBatch"){
              ret = await Promise.all(Array.from(Array(100)).map(i => api.startAlgorithm('green-alg', [{ size: 10, batch: 1 }])))

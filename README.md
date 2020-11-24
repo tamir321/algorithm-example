@@ -9,20 +9,20 @@ to start pipeline
 ```
 to start raw pipeline
 ```json
-{"action":"startRaw","pipeName":"raw","pipNodes":[
+{"action":"startRaw","pipeName":"raw","pipNodes":"[
     {
-      "algorithmName": 'green-alg',
-      "input": [
-        '@flowInput.bar'
+      \"algorithmName\": \"green-alg\",
+      \"input\": [
+        \"@flowInput.bar\"
       ],
-      "nodeName": 'a'
+      \"nodeName\": \"a\"
     },
     {
-      "algorithmName": 'yellow-alg',
-      "input": [
-        '#@a'
+      \"algorithmName\": \"yellow-alg\",
+      \"input\": [
+        \"#@a\"
       ],
-      "nodeName": 'b'
+      \"nodeName\": \"b\"
     }
-  ],"input":{"bar":{"size":"3","batch":"4"}}}
+  ]","input":{"bar":{"size":"3","batch":"4"}}}
 
