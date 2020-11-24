@@ -20,3 +20,6 @@ const start = async (args, api) => {
     // const ret = await api.startRawSubpipeline('foo2',pipe.nodes, {bar: {size: 300000, batch: 10}});
     return ret;
   }
+  module.exports = {
+    start
+}
