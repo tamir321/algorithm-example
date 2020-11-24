@@ -25,4 +25,9 @@ to start raw pipeline
       \"nodeName\": \"b\"
     }
   ]","input":{"bar":{"size":"3","batch":"4"}}}
-
+```
+if you need to debug package.json dependencies should be -  dependencies": {
+    "@hkube/nodejs-wrapper": "^2.0.25",
+    "i": "^0.3.6",
+    "npm": "^6.14.9"
+  }
