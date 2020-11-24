@@ -1,5 +1,5 @@
 const start = async (args, api) => {
-    const ret="did zero action"
+    let ret="did zero action"
 
     input=args['input'][0]
     if (input.hasOwnProperty("action")){

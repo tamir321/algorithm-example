@@ -5,7 +5,7 @@ to start algorithm
 ```
 to start pipeline 
 ```json
-{"action":"startStored","pipeName":"simple","input":[1]}
+{"action":"startStored","pipeName":"simple","input":{"inp":"5"}}
 ```
 to start raw pipeline
 ```json
