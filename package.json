@@ -16,7 +16,7 @@
     "url": "https://github.com/tamir321/hkube-js-algorithm/issues"
   },
   "homepage": "https://github.com/tamir321/hkube-js-algorithm#readme",
-  "_dependencies": {
+  "dependencies": {
    
   }
 }
